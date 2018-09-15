@@ -1,14 +1,22 @@
-const articleREf = document .querySelector("#congressional-rep")
-console. log(articleRef)
+// CHALLENGE
+let articleRef = document.getElementById("article--districtRep");
+console.log(articleRef);
 
-let paragraphElement = document.createElement("p")
-let paragraphTextNode = document.createTextNode("Made up mission statement")
-paragraphElement.appendChild(paragraphTextNode)
-console.log(paragraphElement)
+let child = document.getElementById("district");
 
-articleRef.appendChild(paragraphElement)
+let paragraphElement = document.createElement("p");
+let paragraphTextNode = document.createTextNode("Made up mission statement");
+paragraphElement.appendChild(paragraphTextNode);
 
-const congressionalDistrictAttr = document.createAttribute("congressional-district")
-congressionalDistrictAttr.value = "5"
+articleRef.insertBefore(paragraphElement, child);
+console.log("after insert");
 
-articleREf.setAttributeNode(congressionalDistrictAttr)
+// ADVANCED CHALLENGE
+let articleRef2 = document.getElementById("article--districtRep");
+let congressionalDistrictAttr = document.createAttribute(
+  "congressional-district"
+);
+congressionalDistrictAttr.value = "5";
+
+articleRef2.setAttributeNode(congressionalDistrictAttr);
+console.log(congressionalDistrictAttr);

@@ -1,64 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta =name="viewport" content="width=device-with, initial-scale1.0">
+
+<head>
+    <meta charset="UTF-8">
+    <meta=name="viewport" content="width=device-with, initial-scale1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="main.css">
         <title>Senator Bob Corker</title>
-    </head>
-    <body>
-        <h1>Senator Bob Corker</h1>
-        <h2>Senator for Tennessee</h2>
-            <article id="congressional-rep">
-                <!--1st section will include picture, full name, title, and party-->
-                <section>
-                    <img src="BobCorker.jpg" alt="Senator Bob Corker">
-                    <ul>
-                        <li>Robert Phillips Corker Jr.</li>
-                        <li>Junior Senator for the State of Tennessee</li>
-                        <li>Republican</li> 
-                    </ul>
-                </section>
-                <!--2nd section will be committees rep serves on-->
-                <section>
-                    <h3>Committee Membership</h3>
-                        <ul>
-                            <li>Chair, Senate Committee on Foreign Relations</li>
-                                <ul>
-                                    <li>Ex Officio, Subcommittee on Africa and Global Health Policy</li>
-                                    <li>Ex Officio, Subcommittee on East Asia, the Pacific, and International Cybersecurity Policy</li>
-                                    <li>Ex Officio, Subcommittee on Europe and Regional Security Cooperation</li>
-                                    <li>Ex Officio, Subcommittee on Multilateral International Development, Multilateral Institutions, and International Economic, Energy, and Environmental Policy</li>
-                                    <li>Ex Officio, Subcommittee on Near East, South Asia, Central Asia, and Counterterrorism</li>
-                                    <li>Ex Officio, Subcommittee on State Department and USAID Management, International Operations, and Bilateral International Development</li>
-                                    <li>Ex Officio, Subcommittee on Western Hemisphere, Transnational Crime, Civilian Security, Democracy, Human Rights, and Global Women's Issues</li>
-                                </ul>
-                            <li>Senate Committee on Banking, Housing, and Urban Affairs</li>
-                                <ul>
-                                    <li>Member, Subcommittee on Financial Institutions and Consumer Protection</li>
-                                    <li>Member, Subcommittee on National Security and International Trade and Finance</li>
-                                    <li>Member, Subcommittee on Securities, Insurance, and Investment</li>
-                                </ul>
-                            <li>Senate Committee on the Budget</li>
-                            <li>Senate Special Committee on Againg</li>
-                        </ul>
-                </section>
-                <!--3rd section legislation enacted by rep-->
-                <section>
-                    <h3>Enacted Legislation</h3>
-                        <ul>
-                            <li><a href="https://www.govtrack.us/congress/bills/115/s371">S. 371: Department of State Authorities Act, Fiscal Year 2017, Improvements Act</a></li>
-                            <li><a href="https://www.govtrack.us/congress/bills/115/s722">S. 722: Countering Iran’s Destabilizing Activities Act of 2017</a></li>
-                            <li><a href="https://www.govtrack.us/congress/bills/114/s8">S. 8 (114th): A bill to provide for the approval of the Agreement for Cooperation Between the Government of the United States of America and the Government of the Kingdom of Norway Concerning Peaceful Uses of Nuclear Energy.</a></li>
-                            <li><a href="https://www.govtrack.us/congress/bills/114/s1635">S. 1635 (114th): Department of State Authorities Act, Fiscal Year 2017</a></li>
-                            <li><a href="https://www.govtrack.us/congress/bills/114/s2152">S. 2152 (114th): Electrify Africa Act of 2015</a></li>
-                            <li><a href="https://www.govtrack.us/congress/bills/114/s2078">S. 2078 (114th): United States Commission on International Religious Freedom Reauthorization Act of 2015</a></li>
-                            <li><a href="https://www.govtrack.us/congress/bills/114/s2079">S. 2079 (114th): United States Commission on International Religious Freedom Reauthorization Act of 2015</a></li>
-                            <li><a href="https://www.govtrack.us/congress/bills/114/s615">S. 615 (114th): Iran Nuclear Agreement Review Act of 2015</a></li>
-                        </ul>
-                </section>
-            </article>
-        <script src="main.js"></script>
-    </body>
+</head>
+
+<body>
+    <!-- 1. Article tag with unique ID -->
+    <article id="article--districtRep">
+        <h1 class="h1--repName">Senator Bob Corker</h1>
+        <h2 class="h2--repTitle">Senator for Tennessee</h2>
+        <!--2. 1st section will include picture, full name, title, and party and has unique ID with similar name to article tag component-->
+        <section class="section--bio">
+            <img src="BobCorker.jpg" alt="Senator Bob Corker" class="img--repImage">
+            <ul class="list list--bio">
+                <li class="listItem listItem--name">Robert Phillips Corker Jr.</li>
+                <li class="listItem listItem--title">Junior Senator for the State of Tennessee</li>
+                <li class="listItem listItem--politcalParty">Republican</li>
+            </ul>
+        </section class="section--committees">
+        <!--3. 2nd section will be committees rep serves on and has unique ID with similar name to article tag component-->
+        <h3 class="h3--committees">Committee Membership</h3>
+        <ul class="list list--committess">
+            <li class="listItem listItem--committee1">Chair, Senate Committee on Foreign Relations</li>
+            <ul class="list list--foreignRelationsComittee">
+                <li class="listItem listItem--foreignRelationsSubCom1">Ex Officio, Subcommittee on Africa and Global
+                    Health Policy</li>
+                <li class="listItem listItem--foreignRelationsSubCom2">Ex Officio, Subcommittee on East Asia, the
+                    Pacific, and International Cybersecurity Policy</li>
+                <li class="listItem listItem--foreignRelationsSubCom3">Ex Officio, Subcommittee on Europe and Regional
+                    Security Cooperation</li>
+                <li class="listItem listItem--foreignRelationsSubCom4">Ex Officio, Subcommittee on Multilateral
+                    International Development, Multilateral Institutions, and International Economic, Energy, and
+                    Environmental Policy</li>
+                <li class="listItem listItem--foreignRelationsSubCom5">Ex Officio, Subcommittee on Near East, South
+                    Asia, Central Asia, and Counterterrorism</li>
+                <li class="listItem listItem--foreignRelationsSubCom6">Ex Officio, Subcommittee on State Department
+                    and USAID Management, International Operations,
+                    and Bilateral International Development</li>
+                <li class="listItem listItem--foreignRelationsSubCom7">Ex Officio, Subcommittee on Western Hemisphere,
+                    Transnational Crime, Civilian Security,
+                    Democracy, Human Rights, and Global Women's Issues</li>
+            </ul>
+            <li class="listItem listItem--foreignRelationsSubCom8">Senate Committee on Banking, Housing, and Urban
+                Affairs</li>
+            <ul class="list list--bankingHousingUrbanAffairsComittee">
+                <li class="listItem listItem--bankingHousingUrbanAffairsSubCom1">Member, Subcommittee on Financial
+                    Institutions and Consumer Protection</li>
+                <li class="listItem listItem--bankingHousingUrbanAffairsSubCom2">Member, Subcommittee on National
+                    Security and International Trade and Finance</li>
+                <li class="listItem listItem--bankingHousingUrbanAffairsSubCom3">Member, Subcommittee on Securities,
+                    Insurance, and Investment</li>
+            </ul>
+            <li class="listItem listItem--committee3">Senate Committee on the Budget</li>
+            <li class="listItem listItem--committee4">Senate Special Committee on Againg</li>
+        </ul>
+        </section>
+        <!--4. 3rd section legislation enacted by rep and has unique ID with similar name to article tag component-->
+        <section class="section--legislation">
+            <h3 class="h3--legislation">Enacted Legislation</h3>
+            <ul class="list list--enactedLegislation">
+                <li class="listItem listItem--law1"><a href="https://www.govtrack.us/congress/bills/115/s371">S. 371:
+                        Department of State Authorities
+                        Act, Fiscal Year 2017, Improvements Act</a></li>
+                <li class="listItem listItem--law2"><a href="https://www.govtrack.us/congress/bills/115/s722">S. 722:
+                        Countering Iran’s Destabilizing
+                        Activities Act of 2017</a></li>
+                <li class="listItem listItem--law3"><a href="https://www.govtrack.us/congress/bills/114/s8">S. 8
+                        (114th): A bill to provide for the
+                        approval of the Agreement for Cooperation Between the Government of the United States of
+                        America and the Government of the Kingdom of Norway Concerning Peaceful Uses of Nuclear Energy.</a></li>
+                <li class="listItem listItem--law4"><a href="https://www.govtrack.us/congress/bills/114/s1635">S. 1635
+                        (114th): Department of State
+                        Authorities Act, Fiscal Year 2017</a></li>
+                <li class="listItem listItem--law5"><a href="https://www.govtrack.us/congress/bills/114/s2152">S. 2152
+                        (114th): Electrify Africa Act of
+                        2015</a></li>
+                <li class="listItem listItem--law6"><a href="https://www.govtrack.us/congress/bills/114/s2078">S. 2078
+                        (114th): United States
+                        Commission on International Religious Freedom Reauthorization Act of 2015</a></li>
+                <li class="listItem listItem--law7"><a href="https://www.govtrack.us/congress/bills/114/s2079">S. 2079
+                        (114th): United States
+                        Commission on International Religious Freedom Reauthorization Act of 2015</a></li>
+                <li class="listItem listItem--law8"><a href="https://www.govtrack.us/congress/bills/114/s615">S. 615
+                        (114th): Iran Nuclear Agreement
+                        Review Act of 2015</a></li>
+            </ul>
+        </section>
+    </article>
+    <script src="main.js"></script>
+</body>
+
 </html>
