@@ -1,4 +1,7 @@
-# Practice
+# HTML Components 
+## Book 2 Chapter 2
+
+### Practice
 You're going to create an HTML component to represent a political candidate. Specifically, the representative of your Congressional district. Visit the GovTrack site link below, enter in your home address, and you'll find basic information about your representative.
 
 GovTrack - Congressional District Map
@@ -10,8 +13,8 @@ GovTrack - Congressional District Map
 
 Make sure you use good BEM-style class names for each element in your components. Put a comment above each component explaining what it is.
 
-# Challenge
+### Challenge
 With JavaScript, use document.querySelector() to obtain a programmatic reference to your DOM <article> element that you created. With that reference, update its contents with another sub-component that displays a fictitious mission statement for your representative.
 
-# Advanced Challenge
+### Advanced Challenge
 In JavaScript, there is a method that creates a new attribute node for any DOM element. Discover that method and use it to create a custom attribute named congressional-district and its value should be your congressional district number. Then attach that attribute to the <article> container you made for your representative component.
