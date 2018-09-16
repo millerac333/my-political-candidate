@@ -18,3 +18,7 @@ With JavaScript, use document.querySelector() to obtain a programmatic reference
 
 ### Advanced Challenge
 In JavaScript, there is a method that creates a new attribute node for any DOM element. Discover that method and use it to create a custom attribute named congressional-district and its value should be your congressional district number. Then attach that attribute to the <article> container you made for your representative component.
+  
+### Run Program
+1. run in code editor
+2. launch in browser 
